@@ -17,7 +17,7 @@ public class SuggestionController {
 
 
     @GetMapping("suggestion")
-    public List<Suggestion> suggestions(@RequestParam String keyword){
+    public List<Suggestion> suggestions(@RequestParam  String keyword){
         return suggestionService.getAmazonSuggestions(keyword);
     }
 }
