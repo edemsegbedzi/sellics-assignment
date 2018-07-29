@@ -6,7 +6,6 @@ import lombok.Data;
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Suggestion {
-    String value,type,suggType,refTag;
-    Boolean spellCorrected,blackListed;
+    String value;
 
 }
